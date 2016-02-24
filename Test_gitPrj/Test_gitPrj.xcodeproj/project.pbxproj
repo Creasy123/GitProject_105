@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D89C071C7D8EEF00F1D4A9 /* CH.text in Sources */ = {isa = PBXBuildFile; fileRef = 04D89C061C7D8EEF00F1D4A9 /* CH.text */; };
 		FDE4A9541C7D5A39001B219B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE4A9531C7D5A39001B219B /* main.m */; };
 		FDE4A9571C7D5A39001B219B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE4A9561C7D5A39001B219B /* AppDelegate.m */; };
 		FDE4A95A1C7D5A39001B219B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE4A9591C7D5A39001B219B /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04D89C061C7D8EEF00F1D4A9 /* CH.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CH.text; sourceTree = "<group>"; };
 		FDE4A94F1C7D5A39001B219B /* Test_gitPrj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_gitPrj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE4A9531C7D5A39001B219B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDE4A9551C7D5A39001B219B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		FDE4A9511C7D5A39001B219B /* Test_gitPrj */ = {
 			isa = PBXGroup;
 			children = (
+				04D89C061C7D8EEF00F1D4A9 /* CH.text */,
 				FDE4A9551C7D5A39001B219B /* AppDelegate.h */,
 				FDE4A9561C7D5A39001B219B /* AppDelegate.m */,
 				FDE4A9581C7D5A39001B219B /* ViewController.h */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE4A95A1C7D5A39001B219B /* ViewController.m in Sources */,
+				04D89C071C7D8EEF00F1D4A9 /* CH.text in Sources */,
 				FDE4A9571C7D5A39001B219B /* AppDelegate.m in Sources */,
 				FDE4A9541C7D5A39001B219B /* main.m in Sources */,
 			);
@@ -298,6 +302,7 @@
 				FDE4A9681C7D5A39001B219B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
